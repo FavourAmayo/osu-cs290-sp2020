@@ -1,0 +1,98 @@
+Social Media Icons obtained from Font Awesome. 
+
+--------------------------------------------------------------
+Some styling of Navigation Bar came form W3Schools:
+"https://www.w3schools.com/howto/howto_css_searchbar.asp"
+Class "topnav's" CSS properties has "overflow:hidden" which will cause all of the content of the tab to only show when it is being used. Some spacing between the navigation bar and the next element was added. When hovering over one of the tabs, which is activated by ".topnav a:hover" CSS styling, the color will change to a lighter gray. The <a> tag elements are displayed as "block" which shows they can all be on the same line together when also using "float:left."
+
+--------------------------------------------------------------
+Took a SlideShow from W3Schools and I added Automatic Functionality to it: 
+"https://www.w3schools.com/howto/howto_js_slideshow.asp"
+In the slideShow.js file, there is code written to make the slide show function. There is a "slideIndex" variable that tracks the current slide the slideshow is on. When the left or right arrow is clicked, it triggers the "plusSlides" function. This function checks the "slideIndex" variable and displays the slide that corresponds to that "slideIndex" through the property "display:block" and "display: none" to everything else. Also, the function adds the CSS class of "active" to the current dot to show the user which number slide the slideshow is currently on. 
+For automation, there is the "carousel" function. The function is called, then with the "setTimeout" function, it keeps calling itself allowing for the slideshow to be automated. Outside the function there is a variable called "slidesIndex" that tracks the current slide the slideshow is on. The for loop causes all of the slides not to be displayed, but then the "slidesIndex" variable is incremented and then used to display the current slide and current dot. 
+The slideshow was styled through CSS. Dots added through changing "background-color" and "border-radius." Location of arrows changed with "position," "top," and "width." Pseudo class of "hover" added to arrows to allow for color change. Size of each picture maximized with "max-width: 1000px;"
+
+--------------------------------------------------------------
+Part of Functionality of Pop Up Window and CSS received from Traversy Media: 
+"https://codepen.io/bradtraversy/pen/zEOrPp"
+I changed the JQuery to vanilla Javascript. I turned the callback functions into anonymous functions. Instead of only one pop up window showing up, I used a for loop to add a pop up window to each "Read More" button. When the target button is clicked, the target modal has CSS "display:block" properties attached to it. 
+In the CSS, modal made to transition into appearing with "animation-duration." Blue background color added. Color of exit button changes with ":hover." I added the scroll box myself. That was not included.  
+
+--------------------------------------------------------------
+Cart Functionality received from Web Dev Simplified YouTube Channel:
+Cart portion on bottom was styled by BootStrap. In terms of functionality, the ready function adds an event listener of "click" to each of the remove buttons, add to cart buttons, increment and decrement buttons, and purchase button. The "purchaseClicked" function empties the cart by removing all of the child nodes from the class "cart-items" and sets the total back to $0. 
+The "removeCartItem" function takes the event of the specific remove event, goes to the parent element with the class name of "cart-items" then removes that child node that contains the information of the item that was to be purchased. 
+The "quantityChanged" function keeps tab of the quantity of each item, then adjusts the total price based on the quantity of that specific item. 
+The "addToCartClicked" function takes the title, price, and image of the item that the Add To Cart button is attached to, and adds that information to the Cart portion of the site. 
+The "addItemToCart" function creates a html block and event functionality for the item that is to be added to the cart, and appends that information as a child item to the element with the class name of "cart-item"
+The "updateCartTotal" takes the prices of the items in the cart, added them up, by first getting rid of the "$" sign, and then displaying the total.
+
+
+-----------------Image Citations---------------------------------
+
+Borba, Jonathon. "Woman Doing Sit Ups." Pexels. 14 Oct 2019, https://www.pexels.com/photo/woman-doing-sit-ups-3076516/. 21 May 2020.
+
+Cantabile, Lilly. "Moving Boxes Box Package Cardboard Boxes Parcel." Pixabay. 17 May 2018, https://pixabay.com/illustrations/moving-boxes-box-package-cardboard-3407663/. 21 May 2020.
+
+DS. "Sports Weights Exercises Dumbbell Lifestyles." Pixabay. 15 Feb 2020, https://pixabay.com/photos/sports-weights-exercises-dumbbell-4850068/. Accessed 21 May 2020.
+
+Fairytale, Elly. "Woman in Black Tank Top and Black Leggings Doing Yoga." Pexels. 28 Feb 2020, https://www.pexels.com/photo/woman-in-black-tank-top-and-black-leggings-doing-yoga-3822365/. 21 May 2020. 
+
+Ferguson, Retha. "Woman Jogging." Pexels. 24 Jan 2020, https://www.pexels.com/photo/woman-jogging-3623180/
+
+Fotios, Lisa. "Strawberries And Measuring Tape." Pexels. 19 June 2018, https://www.pexels.com/photo/strawberries-and-measuring-tape-1172019/. 21 May 2020. 
+
+FrameKings. "Wood Outdoors Nature Tree People Man Adult Male." Pixabay. 21 Jan 2018, https://pixabay.com/photos/wood-outdoors-nature-tree-people-3094281/. 21 May 2020.
+
+Freitas, Victor. "Man Holding Black Barbell." Pexels. 26 Nov 2017, https://www.pexels.com/photo/man-holding-black-barbell-703012/. 21 May 2020. 
+
+Freitas, Victor. "Person Holding Barbell." Pexels. 1 Feb 2020, https://www.pexels.com/photo/person-holding-barbell-841128/. 21 May 2020. 
+
+Hassan, Mohamed. "Care Service Call Center Customer Service." Pixabay. 29 May 2017, https://pixabay.com/illustrations/care-service-call-center-2349763/. 21 May 2020.
+
+IO-Images. "Dumbbell Weight Lifting Strength Training Sport." Pexels. 17 Feb 2018, https://pixabay.com/vectors/dumbbell-weight-lifting-3160788/. 21 May 2020.
+
+Kline, Jon. "Weight Fitness Workout Barbell Free Weight." Pixabay. 28 July 2015, https://pixabay.com/photos/weight-fitness-workout-barbell-860625/. Accessed 21 May 2020.
+
+LoveYouAll. "Trophy Icon Winner Win Cup Award Symbol Emblem." Pixabay. 19 Sep 2016, https://pixabay.com/illustrations/trophy-icon-winner-win-cup-award-1674911/. 21 May 2020.
+
+Markus, Spiske. "Fitness Dumbbells Training Fitness Studio." Pixabay. 10 Jan 2015, https://pixabay.com/photos/fitness-dumbbells-training-594143/. Accessed 21 May 2020.
+
+Meldorf, Erzieher. "Equipment Workout Rescue Dog Dog." Pixabay. 3 Nov 2016, https://pixabay.com/photos/equipment-workout-rescue-dog-dog-1786391/. Accessed 12 May 2020. 
+
+Miracle, Corrie. "Barbell Gym Worout Gym Fitness Equipment." Pixabay. 30 April 2018, https://pixabay.com/photos/kettlebell-gym-fitness-workout-3361559/. Accessed 21 May 2020.
+
+Pexels. "Healthy Sport Fitness Workout Gym." Pixabay. 27 March 2016, https://pixabay.com/photos/healthy-sport-fitness-workout-gym-1283793/. Accessed 21 May 2020.
+
+Pexels. "Sport Fitness Workout Gym Crossfit." Pixabay. 27 March 2016, https://pixabay.com/photos/sport-fitness-workout-gym-crossfit-1283791/. Accessed 21 May 2020.
+
+Pixabay. "Green, Blue, and Pink Kettle Bells on Blue Surface." Pexels. 5 Nov 2016, https://www.pexels.com/photo/bright-close-up-color-colorful-221247/. 21 May 2020.
+
+Sjöström, Oliver. "Man Lying Beside on Green Tennis Balls." Pexels. 21 May 2018, https://www.pexels.com/photo/man-lying-beside-on-green-tennis-balls-1103833/. 21 May 2020. 
+
+Steve. "Physiotherapy Weight Training Dumbbell" Pixabay. 10 Jan 2015, https://pixabay.com/photos/physiotherapy-weight-training-595529/. Accessed 21 May 2020.
+
+Sun, Li. "Woman Lifting Barbell." Pexels. 5 April 2017, https://www.pexels.com/photo/woman-lifting-barbell-371049/. 21 May 2020. 
+
+Wing, Spencer. "Exercise Equipment Roller Exercise Sport Lifestyle." Pixabay. 21 Oct 2017, https://pixabay.com/photos/exercise-equipment-roller-exercise-2874410/. Accessed 21 May 2020.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+

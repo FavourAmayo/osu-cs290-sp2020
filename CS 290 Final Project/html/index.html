@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css" type="text/css">
+    <link rel="stylesheet" href="../css/slides-styles.css" type="text/css">
+    <title>Gym</title>
+
+</head>
+
+<body>
+    <!-- Navigation Menu-->
+    <!-- https://www.w3schools.com/howto/howto_css_searchbar.asp -->
+    <div class="topnav">
+        <img src="../images/dumbbell-3160788_1280.png">
+        <a class="active" href="index.html">Home</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="mycart.html">Shop</a>
+        <a href="blog.html">Blog</a>
+    </div>
+
+    <!-- ------------------Carousel---------------- -->
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="../images/woman-in-black-tank-top-and-black-leggings-doing-yoga-3822365.jpg" style="width:100%">
+            <div class="text">Performance</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="../images/person-holding-barbell-841128.jpg" style="width:100%">
+            <div class="text">Strength</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="../images/woman-jogging-3623180.jpg" style="width:100%">
+            <div class="text">Speed</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+
+    <!-- New Releases -->
+    <section id="boxes_1">
+        <div class="containers">
+            <h2>NEW RELEASES</h2>
+            <div class="box">
+                <img src="../images/woman-doing-sit-ups-3076516.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Women's Fitness Leggings</h3>
+            </div>
+            <div class="box">
+                <img src="../images/woman-lifting-barbell-371049.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Women's Fitness Top</h3>
+            </div>
+            <div class="box">
+                <img src="../images/man-lying-beside-on-green-tennis-balls-1103833.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Men's Fitness Shorts</h3>
+            </div>
+            <div class="box">
+                <img src="../images/wood-3094281_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Men's Fitness Top</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section id="boxes_2">
+        <div class="containers">
+            <h2>BEST SELLERS</h2>
+            <div class="box_2">
+                <img src="../images/exercise-equipment-2874410_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Ab Roller</h3>
+            </div>
+            <div class="box_2">
+                <img src="../images/healthy-1283793_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Hand Grip</h3>
+            </div>
+            <div class="box_2">
+                <img src="../images/sport-1283791_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Jump Rope</h3>
+            </div>
+            <div class="box_2">
+                <img src="../images/sports-4850068_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Trainers</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Weights -->
+    <section id="boxes_3">
+        <div class="containers">
+            <h2>WEIGHTS</h2>
+            <div class="box_3">
+                <img src="../images/kettlebell-3361559_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Kettle Bell</h3>
+            </div>
+            <div class="box_3">
+                <img src="../images/physiotherapy-595529_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">Blue Dumbbells</h3>
+            </div>
+            <div class="box_3">
+                <img src="../images/weight-860625_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">2.5KG Weight Plate</h3>
+            </div>
+            <div class="box_3">
+                <img src="../images/fitness-594143_1920.jpg" class="shop-image imageSrc">
+                <h3 class="shop-title">10KG Dumbbells</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download workout Music -->
+    <div class="download">
+        <h2>Download Our Weekly Workout Music</h2>
+        <a href="../music/2020-02-28_-_Together_We_Can_-_David_Fesliyan.mp3" download="Together We Can">
+            <button type="button">Download</button>
+        </a>
+    </div>
+
+    <!-- Subscription -->
+    <form action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+        method="POST">
+        <div class="subscription">
+            <h2>SUBSCRIBE</h2>
+            <input id="name" type="text" placeholder="Name" name="name" required>
+            <input id="email" type="text" placeholder="Email address" name="mail" required>
+            <input id="submit" type="submit" value="Subscribe">
+        </div>
+    </form>
+
+
+
+    <footer>
+        <p>Copyright &copy; 2020 GYM</p>
+        <a href="https://facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="https://youtube.com"><i class="fab fa-youtube-square fa-2x"></i></a>
+    </footer>
+
+
+    <script src="../js/script.js"></script>
+    <script src="../js/slideShow.js"></script>
+    <script src="https://kit.fontawesome.com/e0d7e7d4bc.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
